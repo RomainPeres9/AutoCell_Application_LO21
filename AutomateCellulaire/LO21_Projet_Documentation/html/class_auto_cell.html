@@ -1,0 +1,2842 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>LO21_Projet: Référence de la classe AutoCell</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">LO21_Projet
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Fonctions membres publiques</a> &#124;
+<a href="#pub-static-methods">Fonctions membres publiques statiques</a> &#124;
+<a href="#pri-slots">Connecteurs privés</a> &#124;
+<a href="#pri-methods">Fonctions membres privées</a> &#124;
+<a href="#pri-attribs">Attributs privés</a> &#124;
+<a href="class_auto_cell-members.html">Liste de tous les membres</a>  </div>
+  <div class="headertitle">
+<div class="title">Référence de la classe AutoCell</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>class <a class="el" href="class_auto_cell.html" title="class AutoCell ">AutoCell</a>  
+ <a href="class_auto_cell.html#details">Plus de détails...</a></p>
+
+<p><code>#include &lt;<a class="el" href="autocell_8h_source.html">autocell.h</a>&gt;</code></p>
+<div class="dynheader">
+Graphe d'héritage de AutoCell:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_auto_cell.png" usemap="#AutoCell_map" alt=""/>
+  <map id="AutoCell_map" name="AutoCell_map">
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Fonctions membres publiques</h2></td></tr>
+<tr class="memitem:ae7fd535651789abfdf729cf5d96e8763"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#ae7fd535651789abfdf729cf5d96e8763">AutoCell</a> ()</td></tr>
+<tr class="memdesc:ae7fd535651789abfdf729cf5d96e8763"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_auto_cell.html" title="class AutoCell ">AutoCell</a> constructeur de la fenêtre. Instancie la fenêtre principale avec le tableau de widget. Si un fichier save.json existe, va chercher dans le fichier si un précédent contexte existe, si oui, le charge dans la fenêtre avec le simulateur jusqu'au dernier état. Sinon instancie le tableau aux dimensions 10x10 à vide.  <a href="#ae7fd535651789abfdf729cf5d96e8763">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ae7fd535651789abfdf729cf5d96e8763"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26ac5501ce112f530867a5e8d402f8de"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#a26ac5501ce112f530867a5e8d402f8de">~AutoCell</a> ()</td></tr>
+<tr class="memdesc:a26ac5501ce112f530867a5e8d402f8de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructeur de <a class="el" href="class_auto_cell.html" title="class AutoCell ">AutoCell</a>. Lors de la destruction de l'objet courant, sauvegarde le contexte de l'application si il existe. Sauvegarde dimension, automate, état initial, et rang du dernier état pour pouvoir le charger la prochaine fois que l'on lance l'application.  <a href="#a26ac5501ce112f530867a5e8d402f8de">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a26ac5501ce112f530867a5e8d402f8de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Fonctions membres publiques statiques</h2></td></tr>
+<tr class="memitem:a9e31b83dffcdb1aa94730598944bf57b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_etat.html">Etat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#a9e31b83dffcdb1aa94730598944bf57b">tableToBinaryState</a> (const QTableWidget &amp;tab)</td></tr>
+<tr class="memdesc:a9e31b83dffcdb1aa94730598944bf57b"><td class="mdescLeft">&#160;</td><td class="mdescRight">tableToBinaryState se charge de convertir un tableau que l'on passera en paramètre en un état binaire.  <a href="#a9e31b83dffcdb1aa94730598944bf57b">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a9e31b83dffcdb1aa94730598944bf57b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd172d061df6770aedcb25c70d5ac293"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_etat.html">Etat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#afd172d061df6770aedcb25c70d5ac293">tableToMultipleState</a> (const QTableWidget &amp;tab)</td></tr>
+<tr class="memdesc:afd172d061df6770aedcb25c70d5ac293"><td class="mdescLeft">&#160;</td><td class="mdescRight">tableToMultipleState se charge de convertir un tableau que l'on passera en paramètre en un état multiple.  <a href="#afd172d061df6770aedcb25c70d5ac293">Plus de détails...</a><br /></td></tr>
+<tr class="separator:afd172d061df6770aedcb25c70d5ac293"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-slots"></a>
+Connecteurs privés</h2></td></tr>
+<tr class="memitem:a64858d77435ceabbcef5d6695745eca2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#a64858d77435ceabbcef5d6695745eca2">saveConfiguration</a> ()</td></tr>
+<tr class="memdesc:a64858d77435ceabbcef5d6695745eca2"><td class="mdescLeft">&#160;</td><td class="mdescRight">saveConfiguration sauvegarde l'automate courant (ses règles) dans le fichier save.json  <a href="#a64858d77435ceabbcef5d6695745eca2">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a64858d77435ceabbcef5d6695745eca2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acaecdea0ed38e894a80f6c7ba3235ada"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#acaecdea0ed38e894a80f6c7ba3235ada">newAutomateClicked</a> ()</td></tr>
+<tr class="memdesc:acaecdea0ed38e894a80f6c7ba3235ada"><td class="mdescLeft">&#160;</td><td class="mdescRight">newAutomateClicked appelé lorsque l'on choisit nouvel automate dans la barre des menus Instancie toute la fenêtre de configuration de l'automate et met le type à "AutomateUnDimension"  <a href="#acaecdea0ed38e894a80f6c7ba3235ada">Plus de détails...</a><br /></td></tr>
+<tr class="separator:acaecdea0ed38e894a80f6c7ba3235ada"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8bfd6e734193c367551b8068d7b3e281"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#a8bfd6e734193c367551b8068d7b3e281">loadAutomateClicked</a> ()</td></tr>
+<tr class="memdesc:a8bfd6e734193c367551b8068d7b3e281"><td class="mdescLeft">&#160;</td><td class="mdescRight">loadAutomateClicked appelé lorsque l'on choisit charger automate dans la barre des menus Instancie la fenêtre de chargement d'automate si des automates ont précédemment été sauvegardé Si aucun automate n'a été sauvegardé précédemment, affiche une page avec marqué "aucun automate sauvegardé"  <a href="#a8bfd6e734193c367551b8068d7b3e281">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a8bfd6e734193c367551b8068d7b3e281"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f6787c224a2fdb1175481eed078ed14"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#a6f6787c224a2fdb1175481eed078ed14">randomStateClicked</a> ()</td></tr>
+<tr class="memdesc:a6f6787c224a2fdb1175481eed078ed14"><td class="mdescLeft">&#160;</td><td class="mdescRight">randomStateClicked appelé lorsque l'on clique sur "état aléatoire" lors du choix de l'état initial. Instancie toutes les cases du tableau aléatoirement en fonction de la binarité des états. Si les états sont binaire, alors à l'aide de std::rand on choisit aléatoirement l'état. Si les états sont multiples, alors toujours à l'aide de std::rand on choisit un état entre 0 et 99 inclus.  <a href="#a6f6787c224a2fdb1175481eed078ed14">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a6f6787c224a2fdb1175481eed078ed14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b3ee79158aa59f3bbfc85697aa0918a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#a3b3ee79158aa59f3bbfc85697aa0918a">loadOneD</a> (const QModelIndex &amp;index)</td></tr>
+<tr class="memdesc:a3b3ee79158aa59f3bbfc85697aa0918a"><td class="mdescLeft">&#160;</td><td class="mdescRight">loadOneD charge l'automate une dimension sur lequel on a double cliqué  <a href="#a3b3ee79158aa59f3bbfc85697aa0918a">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a3b3ee79158aa59f3bbfc85697aa0918a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d5b9b54f48f70248481cd818fc8910b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#a0d5b9b54f48f70248481cd818fc8910b">loadTwoD</a> (const QModelIndex &amp;index)</td></tr>
+<tr class="memdesc:a0d5b9b54f48f70248481cd818fc8910b"><td class="mdescLeft">&#160;</td><td class="mdescRight">loadTwoD charge l'automate deux dimensions sur lequel on a double cliqué  <a href="#a0d5b9b54f48f70248481cd818fc8910b">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a0d5b9b54f48f70248481cd818fc8910b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93e6f53f44167e69bcb0a1ce17071705"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#a93e6f53f44167e69bcb0a1ce17071705">loadMState</a> (const QModelIndex &amp;index)</td></tr>
+<tr class="memdesc:a93e6f53f44167e69bcb0a1ce17071705"><td class="mdescLeft">&#160;</td><td class="mdescRight">loadTwoD charge l'automate états multiples sur lequel on a double cliqué  <a href="#a93e6f53f44167e69bcb0a1ce17071705">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a93e6f53f44167e69bcb0a1ce17071705"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af82435b938757f0ffdace35afcd1aa4b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#af82435b938757f0ffdace35afcd1aa4b">defineInitialState</a> ()</td></tr>
+<tr class="memdesc:af82435b938757f0ffdace35afcd1aa4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">defineInitialState instancie et fait apparaître la fenêtre de choix d'état initial. Instancie le tableau de choix initial aux dimensions renseignés précédemment. Connecte les cases pour que lors d'un double clicked l'état change en fonction du type d'automate.  <a href="#af82435b938757f0ffdace35afcd1aa4b">Plus de détails...</a><br /></td></tr>
+<tr class="separator:af82435b938757f0ffdace35afcd1aa4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac89cca9590d1425895e9b592a487131a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#ac89cca9590d1425895e9b592a487131a">launchSimulation</a> ()</td></tr>
+<tr class="memdesc:ac89cca9590d1425895e9b592a487131a"><td class="mdescLeft">&#160;</td><td class="mdescRight">launchSimulation créer le simulateur avec les informations stockées/renseignées puis synchronise tableau de cellules avec la table d'état initial. Ferme la fenêtre de choix d'état initial si celle-ci est ouverte. Instancie les divers boutons permettant d'avancer dans la simulation.  <a href="#ac89cca9590d1425895e9b592a487131a">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ac89cca9590d1425895e9b592a487131a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6aee9e607fa6d7f2a18ce7379db355eb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#a6aee9e607fa6d7f2a18ce7379db355eb">reset</a> ()</td></tr>
+<tr class="memdesc:a6aee9e607fa6d7f2a18ce7379db355eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">reset replace l'état à l'état initial et synchronise le tableau de cellules de la fenêtre principal.  <a href="#a6aee9e607fa6d7f2a18ce7379db355eb">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a6aee9e607fa6d7f2a18ce7379db355eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6c03265a3fc1329926f9ecca6e818bc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#af6c03265a3fc1329926f9ecca6e818bc">syncNumR1</a> (const QString &amp;s)</td></tr>
+<tr class="memdesc:af6c03265a3fc1329926f9ecca6e818bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">syncNumR1 appelle la synchronisation NumBitToNum correspondante en donnant en paramètre numR1SpinBox et QLineEdit numeroBitR1  <a href="#af6c03265a3fc1329926f9ecca6e818bc">Plus de détails...</a><br /></td></tr>
+<tr class="separator:af6c03265a3fc1329926f9ecca6e818bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d9cb1eaec4b68ab2665181588c68814"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#a4d9cb1eaec4b68ab2665181588c68814">syncNumR2</a> (const QString &amp;s)</td></tr>
+<tr class="memdesc:a4d9cb1eaec4b68ab2665181588c68814"><td class="mdescLeft">&#160;</td><td class="mdescRight">syncNumR2 voir syncNumR1. Même chose mais avec la règle 2.  <a href="#a4d9cb1eaec4b68ab2665181588c68814">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a4d9cb1eaec4b68ab2665181588c68814"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9802652e23053b371a126ef73a0f775b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#a9802652e23053b371a126ef73a0f775b">syncNumBitR1</a> (int n)</td></tr>
+<tr class="memdesc:a9802652e23053b371a126ef73a0f775b"><td class="mdescLeft">&#160;</td><td class="mdescRight">syncNumBitR1 appelle la synchronisation NumToNumBit correspondante en donnant en paramètre numR1SpinBox et QLineEdit numeroBitR1  <a href="#a9802652e23053b371a126ef73a0f775b">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a9802652e23053b371a126ef73a0f775b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac20618dd8a1f6737185ec4aa211cdf92"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#ac20618dd8a1f6737185ec4aa211cdf92">syncNumBitR2</a> (int n)</td></tr>
+<tr class="memdesc:ac20618dd8a1f6737185ec4aa211cdf92"><td class="mdescLeft">&#160;</td><td class="mdescRight">syncNumBitR2 voir syncNumBitR2. Même chose mais avec la règle 2.  <a href="#ac20618dd8a1f6737185ec4aa211cdf92">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ac20618dd8a1f6737185ec4aa211cdf92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32a87cf12818cf50d546950645bef8fc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#a32a87cf12818cf50d546950645bef8fc">instanciate1D</a> ()</td></tr>
+<tr class="memdesc:a32a87cf12818cf50d546950645bef8fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">instanciate1D appelé lorsque l'on clique sur le radio bouton "une dimension" lors de la configuration. Bloque les règles qui ne correspondent pas à l'automate, à savoir la règle deux et abaisse la longueur de la règle à 8 bit  <a href="#a32a87cf12818cf50d546950645bef8fc">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a32a87cf12818cf50d546950645bef8fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50cb1fc1696099569e37bb19f656565e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#a50cb1fc1696099569e37bb19f656565e">instanciate2D</a> ()</td></tr>
+<tr class="memdesc:a50cb1fc1696099569e37bb19f656565e"><td class="mdescLeft">&#160;</td><td class="mdescRight">instanciate2D appelé lorsque l'on clique sur le radio bouton "deux dimensions" lors de la configuration. Ouvre toutes les règles et la possibilité de changer la hauteur.  <a href="#a50cb1fc1696099569e37bb19f656565e">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a50cb1fc1696099569e37bb19f656565e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1b6b66a971d1205835a38078c5cbcb2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#ab1b6b66a971d1205835a38078c5cbcb2">instanciateLifeGame</a> ()</td></tr>
+<tr class="memdesc:ab1b6b66a971d1205835a38078c5cbcb2"><td class="mdescLeft">&#160;</td><td class="mdescRight">instanciateLifeGame lors du choix d'un automate deux dimensions, appelé lorsque qu'on coche "jeu de la vie" met les règles à leur valeur correspondantes pour le jeu de la vie (à savoir 12 et 8)  <a href="#ab1b6b66a971d1205835a38078c5cbcb2">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ab1b6b66a971d1205835a38078c5cbcb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1838cda53a50033378faafe3f42857ee"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#a1838cda53a50033378faafe3f42857ee">instanciateMState</a> ()</td></tr>
+<tr class="memdesc:a1838cda53a50033378faafe3f42857ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">instanciate1D appelé lorsque l'on clique sur le radio bouton "plusieurs boutons" lors de la configuration. Bloque les règles qui ne correspondent pas à l'automate, à savoir la règle deux et abaisse la longueur de la règle à 8 bit  <a href="#a1838cda53a50033378faafe3f42857ee">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a1838cda53a50033378faafe3f42857ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17218e28a6a3bdb261ae69c7ee41c3e3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#a17218e28a6a3bdb261ae69c7ee41c3e3">oneStepFurther</a> ()</td></tr>
+<tr class="memdesc:a17218e28a6a3bdb261ae69c7ee41c3e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">oneStepFurther appelle le next du simulateur et synchronise avec le tableau de cellule principal  <a href="#a17218e28a6a3bdb261ae69c7ee41c3e3">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a17218e28a6a3bdb261ae69c7ee41c3e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55eb80c4b0ea98c0f005e2c275dea45f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#a55eb80c4b0ea98c0f005e2c275dea45f">autoRun</a> ()</td></tr>
+<tr class="memdesc:a55eb80c4b0ea98c0f005e2c275dea45f"><td class="mdescLeft">&#160;</td><td class="mdescRight">autoRun lance le compteur chrono à la frequence freq renseigné par le QSlider et lance oneStepFurther à chaque timeout du chrono.  <a href="#a55eb80c4b0ea98c0f005e2c275dea45f">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a55eb80c4b0ea98c0f005e2c275dea45f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4315d132c53bb0f5516dec3eb0c5559"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#ab4315d132c53bb0f5516dec3eb0c5559">syncFrequence</a> ()</td></tr>
+<tr class="memdesc:ab4315d132c53bb0f5516dec3eb0c5559"><td class="mdescLeft">&#160;</td><td class="mdescRight">syncFrequence synchronise la frequence de chrono avec la valeur du QSlider freqSlider  <a href="#ab4315d132c53bb0f5516dec3eb0c5559">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ab4315d132c53bb0f5516dec3eb0c5559"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae345002faea2bf1427d629821b0d1071"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#ae345002faea2bf1427d629821b0d1071">cellActivation</a> (const QModelIndex &amp;index)</td></tr>
+<tr class="memdesc:ae345002faea2bf1427d629821b0d1071"><td class="mdescLeft">&#160;</td><td class="mdescRight">cellActivation appelé lors de l'intéraction avec le tableau d'état initial. Chaque l'état de la cellule correspondante en fonction du type d'automate.  <a href="#ae345002faea2bf1427d629821b0d1071">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ae345002faea2bf1427d629821b0d1071"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Fonctions membres privées</h2></td></tr>
+<tr class="memitem:a8c2fa1c36566e126752e057fb648e00e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#a8c2fa1c36566e126752e057fb648e00e">synchronizeNumToNumBit</a> (int n, QLineEdit **edit)</td></tr>
+<tr class="memdesc:a8c2fa1c36566e126752e057fb648e00e"><td class="mdescLeft">&#160;</td><td class="mdescRight">synchronizeNumToNumBit synchronise le tableau de QLineEdit passé en paramètre avec l'entier n passé en paramètre  <a href="#a8c2fa1c36566e126752e057fb648e00e">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a8c2fa1c36566e126752e057fb648e00e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2bb6fcf1335a3df892197bce4ce06071"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#a2bb6fcf1335a3df892197bce4ce06071">synchronizeNumBitToNum</a> (const QString &amp;s, QSpinBox *spin, QLineEdit **edit)</td></tr>
+<tr class="memdesc:a2bb6fcf1335a3df892197bce4ce06071"><td class="mdescLeft">&#160;</td><td class="mdescRight">synchronizeNumBitToNum synchronise le SpinBox passé en paramètre avec le tableau QLineEdit passé en paramètre. Si s vide retour vide de la fonction  <a href="#a2bb6fcf1335a3df892197bce4ce06071">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a2bb6fcf1335a3df892197bce4ce06071"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd2e547ec211958784895f60737d75c1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#acd2e547ec211958784895f60737d75c1">initializeStateTable</a> ()</td></tr>
+<tr class="memdesc:acd2e547ec211958784895f60737d75c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">initializeStateTable initialise le tableau de la fenêtre principale en fonction du type d'automate. Si l'automate est à deux dimensions, initialise le tableau à la taille et hauteur renseigné. Si l'automate n'a qu'une dimension, on cherche dans l'iterateur du simulateur pour complété les lignes suivantes du tableau.  <a href="#acd2e547ec211958784895f60737d75c1">Plus de détails...</a><br /></td></tr>
+<tr class="separator:acd2e547ec211958784895f60737d75c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec180c3d2d5f19ea20561d938a5dfef5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#aec180c3d2d5f19ea20561d938a5dfef5">createMenu</a> ()</td></tr>
+<tr class="memdesc:aec180c3d2d5f19ea20561d938a5dfef5"><td class="mdescLeft">&#160;</td><td class="mdescRight">createMenu crée le menu dans la bar des menu en haut de la fenêtre principale. Seul le menu a été implémenter permettant de cliquer sur nouvel automate ou charger automate.  <a href="#aec180c3d2d5f19ea20561d938a5dfef5">Plus de détails...</a><br /></td></tr>
+<tr class="separator:aec180c3d2d5f19ea20561d938a5dfef5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Attributs privés</h2></td></tr>
+<tr class="memitem:a67dd322e9605124f466c1f01ce0060f7"><td class="memItemLeft" align="right" valign="top">QWidget *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#a67dd322e9605124f466c1f01ce0060f7">centralWidget</a></td></tr>
+<tr class="separator:a67dd322e9605124f466c1f01ce0060f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3034d1b7dd1be08e9df4705a9293defa"><td class="memItemLeft" align="right" valign="top">QVBoxLayout *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#a3034d1b7dd1be08e9df4705a9293defa">layout</a></td></tr>
+<tr class="separator:a3034d1b7dd1be08e9df4705a9293defa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7932c1cc6136f8a7afa8f6e8810daab1"><td class="memItemLeft" align="right" valign="top">QWidget *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#a7932c1cc6136f8a7afa8f6e8810daab1">topFiller</a></td></tr>
+<tr class="separator:a7932c1cc6136f8a7afa8f6e8810daab1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e9734ed51240aee894cad4dccba73d7"><td class="memItemLeft" align="right" valign="top">QWidget *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#a6e9734ed51240aee894cad4dccba73d7">bottomFiller</a></td></tr>
+<tr class="separator:a6e9734ed51240aee894cad4dccba73d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9aae8049e437ce6f4d077466a44567a9"><td class="memItemLeft" align="right" valign="top">QMenuBar *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#a9aae8049e437ce6f4d077466a44567a9">menubar</a></td></tr>
+<tr class="separator:a9aae8049e437ce6f4d077466a44567a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af70a832c67978cf7d918524d1e8e16f7"><td class="memItemLeft" align="right" valign="top">QMenu *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#af70a832c67978cf7d918524d1e8e16f7">fileMenu</a></td></tr>
+<tr class="separator:af70a832c67978cf7d918524d1e8e16f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b598c3bdbdb020414be2dff706d9737"><td class="memItemLeft" align="right" valign="top">QAction *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#a1b598c3bdbdb020414be2dff706d9737">newAutomate</a></td></tr>
+<tr class="separator:a1b598c3bdbdb020414be2dff706d9737"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b28ad5f4eb4aa48cbd5bff8ddf51bf0"><td class="memItemLeft" align="right" valign="top">QAction *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#a8b28ad5f4eb4aa48cbd5bff8ddf51bf0">loadAutomate</a></td></tr>
+<tr class="separator:a8b28ad5f4eb4aa48cbd5bff8ddf51bf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3266b5a94681a3648a77cea021c9fab2"><td class="memItemLeft" align="right" valign="top">QTableWidget *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#a3266b5a94681a3648a77cea021c9fab2">stateTable</a></td></tr>
+<tr class="separator:a3266b5a94681a3648a77cea021c9fab2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab486b9b4e3f44bfb5877e645df65aea5"><td class="memItemLeft" align="right" valign="top">QHBoxLayout *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#ab486b9b4e3f44bfb5877e645df65aea5">runLayouts</a> [2]</td></tr>
+<tr class="separator:ab486b9b4e3f44bfb5877e645df65aea5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5a257ccc0d59747ec9963253cca2ce0"><td class="memItemLeft" align="right" valign="top">QVBoxLayout *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#aa5a257ccc0d59747ec9963253cca2ce0">bottomLayout</a></td></tr>
+<tr class="separator:aa5a257ccc0d59747ec9963253cca2ce0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71cf9b64a1fe6ccb6e3bc6322c0ea683"><td class="memItemLeft" align="right" valign="top">QPushButton *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#a71cf9b64a1fe6ccb6e3bc6322c0ea683">saveConfigButton</a></td></tr>
+<tr class="separator:a71cf9b64a1fe6ccb6e3bc6322c0ea683"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7bd5fac362202547820bc724fa150f8"><td class="memItemLeft" align="right" valign="top">QPushButton *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#af7bd5fac362202547820bc724fa150f8">nextStepButton</a></td></tr>
+<tr class="separator:af7bd5fac362202547820bc724fa150f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af298c10fba9136b907fe656973479c3a"><td class="memItemLeft" align="right" valign="top">QPushButton *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#af298c10fba9136b907fe656973479c3a">autoRunButton</a></td></tr>
+<tr class="separator:af298c10fba9136b907fe656973479c3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57499d664c336ae4adaf74c4b1d044b3"><td class="memItemLeft" align="right" valign="top">QPushButton *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#a57499d664c336ae4adaf74c4b1d044b3">resetButton</a></td></tr>
+<tr class="separator:a57499d664c336ae4adaf74c4b1d044b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6226e145b0042bc1781b155b1b61db48"><td class="memItemLeft" align="right" valign="top">QSlider *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#a6226e145b0042bc1781b155b1b61db48">frequenceSlider</a></td></tr>
+<tr class="separator:a6226e145b0042bc1781b155b1b61db48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6ca94c6b8b6bddcb04fef1f82ac541e"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#ab6ca94c6b8b6bddcb04fef1f82ac541e">type</a></td></tr>
+<tr class="separator:ab6ca94c6b8b6bddcb04fef1f82ac541e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e97055b86c7ade65b4bf29fb84ed753"><td class="memItemLeft" align="right" valign="top">QTimer *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#a6e97055b86c7ade65b4bf29fb84ed753">chrono</a></td></tr>
+<tr class="memdesc:a6e97055b86c7ade65b4bf29fb84ed753"><td class="mdescLeft">&#160;</td><td class="mdescRight">chrono le compteur envoyant un signal à la fréquence de la valeur de frequenceSlider  <a href="#a6e97055b86c7ade65b4bf29fb84ed753">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a6e97055b86c7ade65b4bf29fb84ed753"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82cf8a30a30a78efde1d39aed72fcc8a"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#a82cf8a30a30a78efde1d39aed72fcc8a">minDimension</a></td></tr>
+<tr class="separator:a82cf8a30a30a78efde1d39aed72fcc8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a550abcdc305cc523a418d36a2c056af8"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#a550abcdc305cc523a418d36a2c056af8">size</a></td></tr>
+<tr class="separator:a550abcdc305cc523a418d36a2c056af8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a211ce5a06bc9ad78b676eb1af228c7de"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_simulateur.html">Simulateur</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#a211ce5a06bc9ad78b676eb1af228c7de">simul</a></td></tr>
+<tr class="memdesc:a211ce5a06bc9ad78b676eb1af228c7de"><td class="mdescLeft">&#160;</td><td class="mdescRight">le simulation de l'application initialisé à nullptr lors de la construction.  <a href="#a211ce5a06bc9ad78b676eb1af228c7de">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a211ce5a06bc9ad78b676eb1af228c7de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a570e633749aa82aaefe2655e6ff2d78c"><td class="memItemLeft" align="right" valign="top">QWidget *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#a570e633749aa82aaefe2655e6ff2d78c">loadWindow</a></td></tr>
+<tr class="separator:a570e633749aa82aaefe2655e6ff2d78c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a045cfca6fdd4a8e0f596fcc132d43569"><td class="memItemLeft" align="right" valign="top">QLabel *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#a045cfca6fdd4a8e0f596fcc132d43569">loadTitle</a></td></tr>
+<tr class="separator:a045cfca6fdd4a8e0f596fcc132d43569"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ee8069c55eca6c2e200488ed6631ddb"><td class="memItemLeft" align="right" valign="top">QVBoxLayout *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#a1ee8069c55eca6c2e200488ed6631ddb">loadLayout</a></td></tr>
+<tr class="separator:a1ee8069c55eca6c2e200488ed6631ddb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56d0886fc2be3af04cb9844d026d2277"><td class="memItemLeft" align="right" valign="top">QLabel *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#a56d0886fc2be3af04cb9844d026d2277">unDLabel</a></td></tr>
+<tr class="separator:a56d0886fc2be3af04cb9844d026d2277"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1529ae5a1890fb0fd363288395830076"><td class="memItemLeft" align="right" valign="top">QTableWidget *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#a1529ae5a1890fb0fd363288395830076">unDTable</a></td></tr>
+<tr class="separator:a1529ae5a1890fb0fd363288395830076"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2168ef5f2de0737e0cdaf09eaf6b1016"><td class="memItemLeft" align="right" valign="top">QLabel *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#a2168ef5f2de0737e0cdaf09eaf6b1016">deuxDLabel</a></td></tr>
+<tr class="separator:a2168ef5f2de0737e0cdaf09eaf6b1016"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a806ccd1652829be9e9ee66871e59b698"><td class="memItemLeft" align="right" valign="top">QTableWidget *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#a806ccd1652829be9e9ee66871e59b698">deuxDTable</a></td></tr>
+<tr class="separator:a806ccd1652829be9e9ee66871e59b698"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90476c2b6fecd2a52af38cbecd0b16c1"><td class="memItemLeft" align="right" valign="top">QLabel *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#a90476c2b6fecd2a52af38cbecd0b16c1">mStateLabel</a></td></tr>
+<tr class="separator:a90476c2b6fecd2a52af38cbecd0b16c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12cc1c7c9d5953c75bfefd37f9a54056"><td class="memItemLeft" align="right" valign="top">QTableWidget *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#a12cc1c7c9d5953c75bfefd37f9a54056">mStateTable</a></td></tr>
+<tr class="separator:a12cc1c7c9d5953c75bfefd37f9a54056"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71dabac57210af077f03b9e711a0a8d9"><td class="memItemLeft" align="right" valign="top">QWidget *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#a71dabac57210af077f03b9e711a0a8d9">configWindow</a></td></tr>
+<tr class="separator:a71dabac57210af077f03b9e711a0a8d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a4e9abebb302456dae53aa75c9e4fd1"><td class="memItemLeft" align="right" valign="top">QVBoxLayout *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#a0a4e9abebb302456dae53aa75c9e4fd1">configLayout</a></td></tr>
+<tr class="separator:a0a4e9abebb302456dae53aa75c9e4fd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9063e823bf2835377a4b4de0726c94a6"><td class="memItemLeft" align="right" valign="top">QHBoxLayout *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#a9063e823bf2835377a4b4de0726c94a6">buttonLayout</a></td></tr>
+<tr class="separator:a9063e823bf2835377a4b4de0726c94a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3447b00f3a0463fcf8d6395730be016c"><td class="memItemLeft" align="right" valign="top">QPushButton *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#a3447b00f3a0463fcf8d6395730be016c">initButton</a></td></tr>
+<tr class="separator:a3447b00f3a0463fcf8d6395730be016c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a576865a2524a951ed09130e5d8c8f2e6"><td class="memItemLeft" align="right" valign="top">QGroupBox *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#a576865a2524a951ed09130e5d8c8f2e6">automateTypes</a></td></tr>
+<tr class="separator:a576865a2524a951ed09130e5d8c8f2e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03399f793b1edc043d36472799f8106b"><td class="memItemLeft" align="right" valign="top">QRadioButton *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#a03399f793b1edc043d36472799f8106b">oneDautomateRButton</a></td></tr>
+<tr class="separator:a03399f793b1edc043d36472799f8106b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44d059e3279018c8e3fe858e2291447a"><td class="memItemLeft" align="right" valign="top">QRadioButton *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#a44d059e3279018c8e3fe858e2291447a">twoDautomateRButton</a></td></tr>
+<tr class="separator:a44d059e3279018c8e3fe858e2291447a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af08429d294daf142e8f722bd9511a93a"><td class="memItemLeft" align="right" valign="top">QRadioButton *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#af08429d294daf142e8f722bd9511a93a">mStateAutomateRButton</a></td></tr>
+<tr class="separator:af08429d294daf142e8f722bd9511a93a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ababafb6e9b8e7ccd2f112ea38aabf4c4"><td class="memItemLeft" align="right" valign="top">QCheckBox *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#ababafb6e9b8e7ccd2f112ea38aabf4c4">lifeGameAutomateCBox</a></td></tr>
+<tr class="separator:ababafb6e9b8e7ccd2f112ea38aabf4c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e27f0419492c86a63a12ea976758a58"><td class="memItemLeft" align="right" valign="top">QVBoxLayout *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#a4e27f0419492c86a63a12ea976758a58">bitcR1</a> [9]</td></tr>
+<tr class="separator:a4e27f0419492c86a63a12ea976758a58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73a605eff89440d33e1891c110007ab3"><td class="memItemLeft" align="right" valign="top">QHBoxLayout *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#a73a605eff89440d33e1891c110007ab3">numerocR1</a></td></tr>
+<tr class="separator:a73a605eff89440d33e1891c110007ab3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa49151e0b4c2384fe4282704bcff6298"><td class="memItemLeft" align="right" valign="top">QSpinBox *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#aa49151e0b4c2384fe4282704bcff6298">numR1Spin</a></td></tr>
+<tr class="separator:aa49151e0b4c2384fe4282704bcff6298"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8474c550b2c7db2069a67f35b35e05d"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#ae8474c550b2c7db2069a67f35b35e05d">numR1</a></td></tr>
+<tr class="separator:ae8474c550b2c7db2069a67f35b35e05d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aecad56a3d09618c3f6b776e1afb17b99"><td class="memItemLeft" align="right" valign="top">QLineEdit *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#aecad56a3d09618c3f6b776e1afb17b99">numeroBitR1</a> [9]</td></tr>
+<tr class="separator:aecad56a3d09618c3f6b776e1afb17b99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c4eb6d5f54f197d427d929217d79734"><td class="memItemLeft" align="right" valign="top">QLabel *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#a2c4eb6d5f54f197d427d929217d79734">numlR1</a></td></tr>
+<tr class="separator:a2c4eb6d5f54f197d427d929217d79734"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4bf9ff5fd853ed1cc4a46d63d59fef0a"><td class="memItemLeft" align="right" valign="top">QLabel *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#a4bf9ff5fd853ed1cc4a46d63d59fef0a">numeroBitlR1</a> [9]</td></tr>
+<tr class="separator:a4bf9ff5fd853ed1cc4a46d63d59fef0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1033770c48c4d958a60ecb3f44100438"><td class="memItemLeft" align="right" valign="top">QVBoxLayout *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#a1033770c48c4d958a60ecb3f44100438">numcR1</a></td></tr>
+<tr class="separator:a1033770c48c4d958a60ecb3f44100438"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25d955f51a6155149af6fafe2b2cad28"><td class="memItemLeft" align="right" valign="top">QVBoxLayout *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#a25d955f51a6155149af6fafe2b2cad28">bitcR2</a> [9]</td></tr>
+<tr class="separator:a25d955f51a6155149af6fafe2b2cad28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa80c7aab110f4154e70287b041a1175"><td class="memItemLeft" align="right" valign="top">QHBoxLayout *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#afa80c7aab110f4154e70287b041a1175">numerocR2</a></td></tr>
+<tr class="separator:afa80c7aab110f4154e70287b041a1175"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3111ac0770a898e974db2923da0deade"><td class="memItemLeft" align="right" valign="top">QSpinBox *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#a3111ac0770a898e974db2923da0deade">numR2Spin</a></td></tr>
+<tr class="separator:a3111ac0770a898e974db2923da0deade"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada27dbb3911b9a2be4a80c712b9cc075"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#ada27dbb3911b9a2be4a80c712b9cc075">numR2</a></td></tr>
+<tr class="separator:ada27dbb3911b9a2be4a80c712b9cc075"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba590a43d66d879c0360c0ba4c0bf23d"><td class="memItemLeft" align="right" valign="top">QLineEdit *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#aba590a43d66d879c0360c0ba4c0bf23d">numeroBitR2</a> [9]</td></tr>
+<tr class="separator:aba590a43d66d879c0360c0ba4c0bf23d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6c48f52a07e6d1dde66cacfda349a03"><td class="memItemLeft" align="right" valign="top">QLabel *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#ae6c48f52a07e6d1dde66cacfda349a03">numlR2</a></td></tr>
+<tr class="separator:ae6c48f52a07e6d1dde66cacfda349a03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61a63346c2ed81da16f42f1f0759c636"><td class="memItemLeft" align="right" valign="top">QLabel *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#a61a63346c2ed81da16f42f1f0759c636">numeroBitlR2</a> [9]</td></tr>
+<tr class="separator:a61a63346c2ed81da16f42f1f0759c636"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb4495b3565403372bfc449dc5d8c182"><td class="memItemLeft" align="right" valign="top">QVBoxLayout *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#afb4495b3565403372bfc449dc5d8c182">numcR2</a></td></tr>
+<tr class="separator:afb4495b3565403372bfc449dc5d8c182"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59fe07a611751c891f34ccdf48a39fe4"><td class="memItemLeft" align="right" valign="top">QHBoxLayout *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#a59fe07a611751c891f34ccdf48a39fe4">dimLayout</a></td></tr>
+<tr class="separator:a59fe07a611751c891f34ccdf48a39fe4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7546ded7f141620f6d737690518fe42f"><td class="memItemLeft" align="right" valign="top">QVBoxLayout *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#a7546ded7f141620f6d737690518fe42f">dimContainer</a> [2]</td></tr>
+<tr class="separator:a7546ded7f141620f6d737690518fe42f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a188ab5b799d018f75a9d5ce1348c679e"><td class="memItemLeft" align="right" valign="top">QLabel *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#a188ab5b799d018f75a9d5ce1348c679e">heightLab</a></td></tr>
+<tr class="separator:a188ab5b799d018f75a9d5ce1348c679e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a069ba9000faa2cf903be4ee8b3b14214"><td class="memItemLeft" align="right" valign="top">QSpinBox *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#a069ba9000faa2cf903be4ee8b3b14214">heightSpin</a></td></tr>
+<tr class="separator:a069ba9000faa2cf903be4ee8b3b14214"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e449c86b2eb93c195a86bb284e050c4"><td class="memItemLeft" align="right" valign="top">QLabel *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#a8e449c86b2eb93c195a86bb284e050c4">widthLab</a></td></tr>
+<tr class="separator:a8e449c86b2eb93c195a86bb284e050c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ec2a8e1579c6eafc9fee2da9c87dccc"><td class="memItemLeft" align="right" valign="top">QSpinBox *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#a0ec2a8e1579c6eafc9fee2da9c87dccc">widthSpin</a></td></tr>
+<tr class="separator:a0ec2a8e1579c6eafc9fee2da9c87dccc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2643ae4135ddf9065ab707a8ce9166d"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#ac2643ae4135ddf9065ab707a8ce9166d">heightNbCells</a> =1</td></tr>
+<tr class="separator:ac2643ae4135ddf9065ab707a8ce9166d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3cd3b3878b3f75b83b8cafecee445252"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#a3cd3b3878b3f75b83b8cafecee445252">widthNbCells</a> =10</td></tr>
+<tr class="separator:a3cd3b3878b3f75b83b8cafecee445252"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c7509aba28b5a7136e586e236bb0d36"><td class="memItemLeft" align="right" valign="top">QIntValidator *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#a5c7509aba28b5a7136e586e236bb0d36">zeroOneValidator</a></td></tr>
+<tr class="separator:a5c7509aba28b5a7136e586e236bb0d36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5c93f1c78affb640a63eac87b2b5272"><td class="memItemLeft" align="right" valign="top">QWidget *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#ad5c93f1c78affb640a63eac87b2b5272">stateWindow</a></td></tr>
+<tr class="separator:ad5c93f1c78affb640a63eac87b2b5272"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b9bdb4b51283c1e34796dd3e4f2530e"><td class="memItemLeft" align="right" valign="top">QVBoxLayout *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#a8b9bdb4b51283c1e34796dd3e4f2530e">stateLayout</a></td></tr>
+<tr class="separator:a8b9bdb4b51283c1e34796dd3e4f2530e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c5366592f02959ff77ef546e90e29da"><td class="memItemLeft" align="right" valign="top">QTableWidget *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#a3c5366592f02959ff77ef546e90e29da">initStateTable</a></td></tr>
+<tr class="separator:a3c5366592f02959ff77ef546e90e29da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade03f964bc89cca95df819380691bd15"><td class="memItemLeft" align="right" valign="top">QLabel *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#ade03f964bc89cca95df819380691bd15">titleLabel</a></td></tr>
+<tr class="separator:ade03f964bc89cca95df819380691bd15"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55ba99eb6819a809d3f80d59e3a691af"><td class="memItemLeft" align="right" valign="top">QPushButton *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#a55ba99eb6819a809d3f80d59e3a691af">launchButton</a></td></tr>
+<tr class="separator:a55ba99eb6819a809d3f80d59e3a691af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca2c926fc727b2bc2af0b5a5c644052c"><td class="memItemLeft" align="right" valign="top">QIntValidator *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#aca2c926fc727b2bc2af0b5a5c644052c">zeroNineNineValidator</a></td></tr>
+<tr class="memdesc:aca2c926fc727b2bc2af0b5a5c644052c"><td class="mdescLeft">&#160;</td><td class="mdescRight">permet de vérifier que les cellules des automates plusieurs états soient bien entre 0 et 99  <a href="#aca2c926fc727b2bc2af0b5a5c644052c">Plus de détails...</a><br /></td></tr>
+<tr class="separator:aca2c926fc727b2bc2af0b5a5c644052c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adedd96441ddec678f442b65556f3b3ca"><td class="memItemLeft" align="right" valign="top">QPushButton *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_auto_cell.html#adedd96441ddec678f442b65556f3b3ca">randomButton</a></td></tr>
+<tr class="separator:adedd96441ddec678f442b65556f3b3ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Description détaillée</h2>
+<div class="textblock"><p>class <a class="el" href="class_auto_cell.html" title="class AutoCell ">AutoCell</a> </p>
+<p>herits from QMainWindow. Holds the interface of the application and all its slots. </p>
+</div><h2 class="groupheader">Documentation des constructeurs et destructeur</h2>
+<a id="ae7fd535651789abfdf729cf5d96e8763"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7fd535651789abfdf729cf5d96e8763">&#9670;&nbsp;</a></span>AutoCell()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">AutoCell::AutoCell </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_auto_cell.html" title="class AutoCell ">AutoCell</a> constructeur de la fenêtre. Instancie la fenêtre principale avec le tableau de widget. Si un fichier save.json existe, va chercher dans le fichier si un précédent contexte existe, si oui, le charge dans la fenêtre avec le simulateur jusqu'au dernier état. Sinon instancie le tableau aux dimensions 10x10 à vide. </p>
+
+</div>
+</div>
+<a id="a26ac5501ce112f530867a5e8d402f8de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26ac5501ce112f530867a5e8d402f8de">&#9670;&nbsp;</a></span>~AutoCell()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">AutoCell::~AutoCell </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destructeur de <a class="el" href="class_auto_cell.html" title="class AutoCell ">AutoCell</a>. Lors de la destruction de l'objet courant, sauvegarde le contexte de l'application si il existe. Sauvegarde dimension, automate, état initial, et rang du dernier état pour pouvoir le charger la prochaine fois que l'on lance l'application. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentation des fonctions membres</h2>
+<a id="a55eb80c4b0ea98c0f005e2c275dea45f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55eb80c4b0ea98c0f005e2c275dea45f">&#9670;&nbsp;</a></span>autoRun</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AutoCell::autoRun </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>autoRun lance le compteur chrono à la frequence freq renseigné par le QSlider et lance oneStepFurther à chaque timeout du chrono. </p>
+
+</div>
+</div>
+<a id="ae345002faea2bf1427d629821b0d1071"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae345002faea2bf1427d629821b0d1071">&#9670;&nbsp;</a></span>cellActivation</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AutoCell::cellActivation </td>
+          <td>(</td>
+          <td class="paramtype">const QModelIndex &amp;&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>cellActivation appelé lors de l'intéraction avec le tableau d'état initial. Chaque l'état de la cellule correspondante en fonction du type d'automate. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">index</td><td>de la cellule du tableau avec laquelle on a intéragi </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aec180c3d2d5f19ea20561d938a5dfef5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec180c3d2d5f19ea20561d938a5dfef5">&#9670;&nbsp;</a></span>createMenu()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AutoCell::createMenu </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>createMenu crée le menu dans la bar des menu en haut de la fenêtre principale. Seul le menu a été implémenter permettant de cliquer sur nouvel automate ou charger automate. </p>
+
+</div>
+</div>
+<a id="af82435b938757f0ffdace35afcd1aa4b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af82435b938757f0ffdace35afcd1aa4b">&#9670;&nbsp;</a></span>defineInitialState</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AutoCell::defineInitialState </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>defineInitialState instancie et fait apparaître la fenêtre de choix d'état initial. Instancie le tableau de choix initial aux dimensions renseignés précédemment. Connecte les cases pour que lors d'un double clicked l'état change en fonction du type d'automate. </p>
+
+</div>
+</div>
+<a id="acd2e547ec211958784895f60737d75c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd2e547ec211958784895f60737d75c1">&#9670;&nbsp;</a></span>initializeStateTable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AutoCell::initializeStateTable </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>initializeStateTable initialise le tableau de la fenêtre principale en fonction du type d'automate. Si l'automate est à deux dimensions, initialise le tableau à la taille et hauteur renseigné. Si l'automate n'a qu'une dimension, on cherche dans l'iterateur du simulateur pour complété les lignes suivantes du tableau. </p>
+
+</div>
+</div>
+<a id="a32a87cf12818cf50d546950645bef8fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32a87cf12818cf50d546950645bef8fc">&#9670;&nbsp;</a></span>instanciate1D</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AutoCell::instanciate1D </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>instanciate1D appelé lorsque l'on clique sur le radio bouton "une dimension" lors de la configuration. Bloque les règles qui ne correspondent pas à l'automate, à savoir la règle deux et abaisse la longueur de la règle à 8 bit </p>
+
+</div>
+</div>
+<a id="a50cb1fc1696099569e37bb19f656565e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50cb1fc1696099569e37bb19f656565e">&#9670;&nbsp;</a></span>instanciate2D</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AutoCell::instanciate2D </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>instanciate2D appelé lorsque l'on clique sur le radio bouton "deux dimensions" lors de la configuration. Ouvre toutes les règles et la possibilité de changer la hauteur. </p>
+
+</div>
+</div>
+<a id="ab1b6b66a971d1205835a38078c5cbcb2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1b6b66a971d1205835a38078c5cbcb2">&#9670;&nbsp;</a></span>instanciateLifeGame</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AutoCell::instanciateLifeGame </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>instanciateLifeGame lors du choix d'un automate deux dimensions, appelé lorsque qu'on coche "jeu de la vie" met les règles à leur valeur correspondantes pour le jeu de la vie (à savoir 12 et 8) </p>
+
+</div>
+</div>
+<a id="a1838cda53a50033378faafe3f42857ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1838cda53a50033378faafe3f42857ee">&#9670;&nbsp;</a></span>instanciateMState</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AutoCell::instanciateMState </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>instanciate1D appelé lorsque l'on clique sur le radio bouton "plusieurs boutons" lors de la configuration. Bloque les règles qui ne correspondent pas à l'automate, à savoir la règle deux et abaisse la longueur de la règle à 8 bit </p>
+
+</div>
+</div>
+<a id="ac89cca9590d1425895e9b592a487131a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac89cca9590d1425895e9b592a487131a">&#9670;&nbsp;</a></span>launchSimulation</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AutoCell::launchSimulation </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>launchSimulation créer le simulateur avec les informations stockées/renseignées puis synchronise tableau de cellules avec la table d'état initial. Ferme la fenêtre de choix d'état initial si celle-ci est ouverte. Instancie les divers boutons permettant d'avancer dans la simulation. </p>
+
+</div>
+</div>
+<a id="a8bfd6e734193c367551b8068d7b3e281"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8bfd6e734193c367551b8068d7b3e281">&#9670;&nbsp;</a></span>loadAutomateClicked</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AutoCell::loadAutomateClicked </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>loadAutomateClicked appelé lorsque l'on choisit charger automate dans la barre des menus Instancie la fenêtre de chargement d'automate si des automates ont précédemment été sauvegardé Si aucun automate n'a été sauvegardé précédemment, affiche une page avec marqué "aucun automate sauvegardé" </p>
+
+</div>
+</div>
+<a id="a93e6f53f44167e69bcb0a1ce17071705"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a93e6f53f44167e69bcb0a1ce17071705">&#9670;&nbsp;</a></span>loadMState</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AutoCell::loadMState </td>
+          <td>(</td>
+          <td class="paramtype">const QModelIndex &amp;&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>loadTwoD charge l'automate états multiples sur lequel on a double cliqué </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">index</td><td>l'index de l'automate cliqué dans le tableau des automates états multiples chargés </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a3b3ee79158aa59f3bbfc85697aa0918a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b3ee79158aa59f3bbfc85697aa0918a">&#9670;&nbsp;</a></span>loadOneD</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AutoCell::loadOneD </td>
+          <td>(</td>
+          <td class="paramtype">const QModelIndex &amp;&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>loadOneD charge l'automate une dimension sur lequel on a double cliqué </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">index</td><td>l'index de l'automate cliqué dans le tableau des automates un dimension chargés </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a0d5b9b54f48f70248481cd818fc8910b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d5b9b54f48f70248481cd818fc8910b">&#9670;&nbsp;</a></span>loadTwoD</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AutoCell::loadTwoD </td>
+          <td>(</td>
+          <td class="paramtype">const QModelIndex &amp;&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>loadTwoD charge l'automate deux dimensions sur lequel on a double cliqué </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">index</td><td>l'index de l'automate cliqué dans le tableau des automates deux dimensions chargés </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="acaecdea0ed38e894a80f6c7ba3235ada"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acaecdea0ed38e894a80f6c7ba3235ada">&#9670;&nbsp;</a></span>newAutomateClicked</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AutoCell::newAutomateClicked </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>newAutomateClicked appelé lorsque l'on choisit nouvel automate dans la barre des menus Instancie toute la fenêtre de configuration de l'automate et met le type à "AutomateUnDimension" </p>
+
+</div>
+</div>
+<a id="a17218e28a6a3bdb261ae69c7ee41c3e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17218e28a6a3bdb261ae69c7ee41c3e3">&#9670;&nbsp;</a></span>oneStepFurther</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AutoCell::oneStepFurther </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>oneStepFurther appelle le next du simulateur et synchronise avec le tableau de cellule principal </p>
+
+</div>
+</div>
+<a id="a6f6787c224a2fdb1175481eed078ed14"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f6787c224a2fdb1175481eed078ed14">&#9670;&nbsp;</a></span>randomStateClicked</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AutoCell::randomStateClicked </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>randomStateClicked appelé lorsque l'on clique sur "état aléatoire" lors du choix de l'état initial. Instancie toutes les cases du tableau aléatoirement en fonction de la binarité des états. Si les états sont binaire, alors à l'aide de std::rand on choisit aléatoirement l'état. Si les états sont multiples, alors toujours à l'aide de std::rand on choisit un état entre 0 et 99 inclus. </p>
+
+</div>
+</div>
+<a id="a6aee9e607fa6d7f2a18ce7379db355eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6aee9e607fa6d7f2a18ce7379db355eb">&#9670;&nbsp;</a></span>reset</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AutoCell::reset </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>reset replace l'état à l'état initial et synchronise le tableau de cellules de la fenêtre principal. </p>
+
+</div>
+</div>
+<a id="a64858d77435ceabbcef5d6695745eca2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a64858d77435ceabbcef5d6695745eca2">&#9670;&nbsp;</a></span>saveConfiguration</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AutoCell::saveConfiguration </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>saveConfiguration sauvegarde l'automate courant (ses règles) dans le fichier save.json </p>
+
+</div>
+</div>
+<a id="ab4315d132c53bb0f5516dec3eb0c5559"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4315d132c53bb0f5516dec3eb0c5559">&#9670;&nbsp;</a></span>syncFrequence</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AutoCell::syncFrequence </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>syncFrequence synchronise la frequence de chrono avec la valeur du QSlider freqSlider </p>
+
+</div>
+</div>
+<a id="a2bb6fcf1335a3df892197bce4ce06071"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2bb6fcf1335a3df892197bce4ce06071">&#9670;&nbsp;</a></span>synchronizeNumBitToNum()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AutoCell::synchronizeNumBitToNum </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>s</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QSpinBox *&#160;</td>
+          <td class="paramname"><em>spin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QLineEdit **&#160;</td>
+          <td class="paramname"><em>edit</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>synchronizeNumBitToNum synchronise le SpinBox passé en paramètre avec le tableau QLineEdit passé en paramètre. Si s vide retour vide de la fonction </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">s</td><td>le string u QLineEdit qui a changé de valeur. Si s vide alors la fonction s'arrête </td></tr>
+    <tr><td class="paramname">spin</td><td>la SpinBox à synchroniser </td></tr>
+    <tr><td class="paramname">edit</td><td>le tableau de QLineEdit pour synchroniser </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a8c2fa1c36566e126752e057fb648e00e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c2fa1c36566e126752e057fb648e00e">&#9670;&nbsp;</a></span>synchronizeNumToNumBit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AutoCell::synchronizeNumToNumBit </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>n</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QLineEdit **&#160;</td>
+          <td class="paramname"><em>edit</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>synchronizeNumToNumBit synchronise le tableau de QLineEdit passé en paramètre avec l'entier n passé en paramètre </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">n</td><td>numéro pour synchroniser </td></tr>
+    <tr><td class="paramname">edit</td><td>tableau à synchroniser </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a9802652e23053b371a126ef73a0f775b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9802652e23053b371a126ef73a0f775b">&#9670;&nbsp;</a></span>syncNumBitR1</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AutoCell::syncNumBitR1 </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>n</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>syncNumBitR1 appelle la synchronisation NumToNumBit correspondante en donnant en paramètre numR1SpinBox et QLineEdit numeroBitR1 </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">n</td><td>la valeur du SpinBox qui vient de changer </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ac20618dd8a1f6737185ec4aa211cdf92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac20618dd8a1f6737185ec4aa211cdf92">&#9670;&nbsp;</a></span>syncNumBitR2</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AutoCell::syncNumBitR2 </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>n</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>syncNumBitR2 voir syncNumBitR2. Même chose mais avec la règle 2. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">n</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="af6c03265a3fc1329926f9ecca6e818bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6c03265a3fc1329926f9ecca6e818bc">&#9670;&nbsp;</a></span>syncNumR1</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AutoCell::syncNumR1 </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>s</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>syncNumR1 appelle la synchronisation NumBitToNum correspondante en donnant en paramètre numR1SpinBox et QLineEdit numeroBitR1 </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">s</td><td>la valeur du QLineEdit qui vient de changer </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a4d9cb1eaec4b68ab2665181588c68814"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d9cb1eaec4b68ab2665181588c68814">&#9670;&nbsp;</a></span>syncNumR2</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AutoCell::syncNumR2 </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>s</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>syncNumR2 voir syncNumR1. Même chose mais avec la règle 2. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">s</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a9e31b83dffcdb1aa94730598944bf57b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e31b83dffcdb1aa94730598944bf57b">&#9670;&nbsp;</a></span>tableToBinaryState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_etat.html">Etat</a> AutoCell::tableToBinaryState </td>
+          <td>(</td>
+          <td class="paramtype">const QTableWidget &amp;&#160;</td>
+          <td class="paramname"><em>tab</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>tableToBinaryState se charge de convertir un tableau que l'on passera en paramètre en un état binaire. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tab</td><td>le tableau de widget à convertir en état binaire </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>l'état binaire converti correspondant au tableau en paramètre </dd></dl>
+
+</div>
+</div>
+<a id="afd172d061df6770aedcb25c70d5ac293"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd172d061df6770aedcb25c70d5ac293">&#9670;&nbsp;</a></span>tableToMultipleState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_etat.html">Etat</a> AutoCell::tableToMultipleState </td>
+          <td>(</td>
+          <td class="paramtype">const QTableWidget &amp;&#160;</td>
+          <td class="paramname"><em>tab</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>tableToMultipleState se charge de convertir un tableau que l'on passera en paramètre en un état multiple. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tab</td><td>le tableau de widget à convertir en état multiple </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>l'état multiple converti correspondant au tableau en paramètre </dd></dl>
+
+</div>
+</div>
+<h2 class="groupheader">Documentation des données membres</h2>
+<a id="a576865a2524a951ed09130e5d8c8f2e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a576865a2524a951ed09130e5d8c8f2e6">&#9670;&nbsp;</a></span>automateTypes</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QGroupBox* AutoCell::automateTypes</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af298c10fba9136b907fe656973479c3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af298c10fba9136b907fe656973479c3a">&#9670;&nbsp;</a></span>autoRunButton</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QPushButton* AutoCell::autoRunButton</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4e27f0419492c86a63a12ea976758a58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e27f0419492c86a63a12ea976758a58">&#9670;&nbsp;</a></span>bitcR1</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QVBoxLayout* AutoCell::bitcR1[9]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a25d955f51a6155149af6fafe2b2cad28"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25d955f51a6155149af6fafe2b2cad28">&#9670;&nbsp;</a></span>bitcR2</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QVBoxLayout* AutoCell::bitcR2[9]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6e9734ed51240aee894cad4dccba73d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e9734ed51240aee894cad4dccba73d7">&#9670;&nbsp;</a></span>bottomFiller</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QWidget* AutoCell::bottomFiller</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa5a257ccc0d59747ec9963253cca2ce0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5a257ccc0d59747ec9963253cca2ce0">&#9670;&nbsp;</a></span>bottomLayout</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QVBoxLayout* AutoCell::bottomLayout</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9063e823bf2835377a4b4de0726c94a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9063e823bf2835377a4b4de0726c94a6">&#9670;&nbsp;</a></span>buttonLayout</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QHBoxLayout* AutoCell::buttonLayout</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a67dd322e9605124f466c1f01ce0060f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67dd322e9605124f466c1f01ce0060f7">&#9670;&nbsp;</a></span>centralWidget</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QWidget* AutoCell::centralWidget</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6e97055b86c7ade65b4bf29fb84ed753"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e97055b86c7ade65b4bf29fb84ed753">&#9670;&nbsp;</a></span>chrono</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QTimer* AutoCell::chrono</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>chrono le compteur envoyant un signal à la fréquence de la valeur de frequenceSlider </p>
+
+</div>
+</div>
+<a id="a0a4e9abebb302456dae53aa75c9e4fd1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a4e9abebb302456dae53aa75c9e4fd1">&#9670;&nbsp;</a></span>configLayout</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QVBoxLayout* AutoCell::configLayout</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a71dabac57210af077f03b9e711a0a8d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71dabac57210af077f03b9e711a0a8d9">&#9670;&nbsp;</a></span>configWindow</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QWidget* AutoCell::configWindow</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2168ef5f2de0737e0cdaf09eaf6b1016"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2168ef5f2de0737e0cdaf09eaf6b1016">&#9670;&nbsp;</a></span>deuxDLabel</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QLabel* AutoCell::deuxDLabel</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a806ccd1652829be9e9ee66871e59b698"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a806ccd1652829be9e9ee66871e59b698">&#9670;&nbsp;</a></span>deuxDTable</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QTableWidget* AutoCell::deuxDTable</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7546ded7f141620f6d737690518fe42f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7546ded7f141620f6d737690518fe42f">&#9670;&nbsp;</a></span>dimContainer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QVBoxLayout* AutoCell::dimContainer[2]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a59fe07a611751c891f34ccdf48a39fe4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59fe07a611751c891f34ccdf48a39fe4">&#9670;&nbsp;</a></span>dimLayout</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QHBoxLayout* AutoCell::dimLayout</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af70a832c67978cf7d918524d1e8e16f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af70a832c67978cf7d918524d1e8e16f7">&#9670;&nbsp;</a></span>fileMenu</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QMenu* AutoCell::fileMenu</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6226e145b0042bc1781b155b1b61db48"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6226e145b0042bc1781b155b1b61db48">&#9670;&nbsp;</a></span>frequenceSlider</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QSlider* AutoCell::frequenceSlider</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a188ab5b799d018f75a9d5ce1348c679e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a188ab5b799d018f75a9d5ce1348c679e">&#9670;&nbsp;</a></span>heightLab</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QLabel* AutoCell::heightLab</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac2643ae4135ddf9065ab707a8ce9166d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2643ae4135ddf9065ab707a8ce9166d">&#9670;&nbsp;</a></span>heightNbCells</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int AutoCell::heightNbCells =1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a069ba9000faa2cf903be4ee8b3b14214"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a069ba9000faa2cf903be4ee8b3b14214">&#9670;&nbsp;</a></span>heightSpin</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QSpinBox* AutoCell::heightSpin</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3447b00f3a0463fcf8d6395730be016c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3447b00f3a0463fcf8d6395730be016c">&#9670;&nbsp;</a></span>initButton</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QPushButton* AutoCell::initButton</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3c5366592f02959ff77ef546e90e29da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c5366592f02959ff77ef546e90e29da">&#9670;&nbsp;</a></span>initStateTable</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QTableWidget* AutoCell::initStateTable</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a55ba99eb6819a809d3f80d59e3a691af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55ba99eb6819a809d3f80d59e3a691af">&#9670;&nbsp;</a></span>launchButton</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QPushButton* AutoCell::launchButton</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3034d1b7dd1be08e9df4705a9293defa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3034d1b7dd1be08e9df4705a9293defa">&#9670;&nbsp;</a></span>layout</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QVBoxLayout* AutoCell::layout</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ababafb6e9b8e7ccd2f112ea38aabf4c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ababafb6e9b8e7ccd2f112ea38aabf4c4">&#9670;&nbsp;</a></span>lifeGameAutomateCBox</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QCheckBox* AutoCell::lifeGameAutomateCBox</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8b28ad5f4eb4aa48cbd5bff8ddf51bf0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b28ad5f4eb4aa48cbd5bff8ddf51bf0">&#9670;&nbsp;</a></span>loadAutomate</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QAction* AutoCell::loadAutomate</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1ee8069c55eca6c2e200488ed6631ddb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ee8069c55eca6c2e200488ed6631ddb">&#9670;&nbsp;</a></span>loadLayout</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QVBoxLayout* AutoCell::loadLayout</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a045cfca6fdd4a8e0f596fcc132d43569"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a045cfca6fdd4a8e0f596fcc132d43569">&#9670;&nbsp;</a></span>loadTitle</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QLabel* AutoCell::loadTitle</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a570e633749aa82aaefe2655e6ff2d78c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a570e633749aa82aaefe2655e6ff2d78c">&#9670;&nbsp;</a></span>loadWindow</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QWidget* AutoCell::loadWindow</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9aae8049e437ce6f4d077466a44567a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9aae8049e437ce6f4d077466a44567a9">&#9670;&nbsp;</a></span>menubar</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QMenuBar* AutoCell::menubar</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a82cf8a30a30a78efde1d39aed72fcc8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a82cf8a30a30a78efde1d39aed72fcc8a">&#9670;&nbsp;</a></span>minDimension</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int AutoCell::minDimension</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af08429d294daf142e8f722bd9511a93a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af08429d294daf142e8f722bd9511a93a">&#9670;&nbsp;</a></span>mStateAutomateRButton</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QRadioButton* AutoCell::mStateAutomateRButton</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a90476c2b6fecd2a52af38cbecd0b16c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90476c2b6fecd2a52af38cbecd0b16c1">&#9670;&nbsp;</a></span>mStateLabel</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QLabel* AutoCell::mStateLabel</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a12cc1c7c9d5953c75bfefd37f9a54056"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12cc1c7c9d5953c75bfefd37f9a54056">&#9670;&nbsp;</a></span>mStateTable</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QTableWidget* AutoCell::mStateTable</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1b598c3bdbdb020414be2dff706d9737"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b598c3bdbdb020414be2dff706d9737">&#9670;&nbsp;</a></span>newAutomate</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QAction* AutoCell::newAutomate</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af7bd5fac362202547820bc724fa150f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7bd5fac362202547820bc724fa150f8">&#9670;&nbsp;</a></span>nextStepButton</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QPushButton* AutoCell::nextStepButton</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1033770c48c4d958a60ecb3f44100438"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1033770c48c4d958a60ecb3f44100438">&#9670;&nbsp;</a></span>numcR1</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QVBoxLayout* AutoCell::numcR1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afb4495b3565403372bfc449dc5d8c182"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb4495b3565403372bfc449dc5d8c182">&#9670;&nbsp;</a></span>numcR2</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QVBoxLayout* AutoCell::numcR2</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4bf9ff5fd853ed1cc4a46d63d59fef0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4bf9ff5fd853ed1cc4a46d63d59fef0a">&#9670;&nbsp;</a></span>numeroBitlR1</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QLabel* AutoCell::numeroBitlR1[9]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a61a63346c2ed81da16f42f1f0759c636"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61a63346c2ed81da16f42f1f0759c636">&#9670;&nbsp;</a></span>numeroBitlR2</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QLabel* AutoCell::numeroBitlR2[9]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aecad56a3d09618c3f6b776e1afb17b99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aecad56a3d09618c3f6b776e1afb17b99">&#9670;&nbsp;</a></span>numeroBitR1</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QLineEdit* AutoCell::numeroBitR1[9]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aba590a43d66d879c0360c0ba4c0bf23d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba590a43d66d879c0360c0ba4c0bf23d">&#9670;&nbsp;</a></span>numeroBitR2</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QLineEdit* AutoCell::numeroBitR2[9]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a73a605eff89440d33e1891c110007ab3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73a605eff89440d33e1891c110007ab3">&#9670;&nbsp;</a></span>numerocR1</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QHBoxLayout* AutoCell::numerocR1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afa80c7aab110f4154e70287b041a1175"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa80c7aab110f4154e70287b041a1175">&#9670;&nbsp;</a></span>numerocR2</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QHBoxLayout* AutoCell::numerocR2</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2c4eb6d5f54f197d427d929217d79734"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c4eb6d5f54f197d427d929217d79734">&#9670;&nbsp;</a></span>numlR1</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QLabel* AutoCell::numlR1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae6c48f52a07e6d1dde66cacfda349a03"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6c48f52a07e6d1dde66cacfda349a03">&#9670;&nbsp;</a></span>numlR2</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QLabel* AutoCell::numlR2</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae8474c550b2c7db2069a67f35b35e05d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8474c550b2c7db2069a67f35b35e05d">&#9670;&nbsp;</a></span>numR1</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int AutoCell::numR1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa49151e0b4c2384fe4282704bcff6298"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa49151e0b4c2384fe4282704bcff6298">&#9670;&nbsp;</a></span>numR1Spin</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QSpinBox* AutoCell::numR1Spin</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ada27dbb3911b9a2be4a80c712b9cc075"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada27dbb3911b9a2be4a80c712b9cc075">&#9670;&nbsp;</a></span>numR2</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int AutoCell::numR2</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3111ac0770a898e974db2923da0deade"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3111ac0770a898e974db2923da0deade">&#9670;&nbsp;</a></span>numR2Spin</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QSpinBox* AutoCell::numR2Spin</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a03399f793b1edc043d36472799f8106b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03399f793b1edc043d36472799f8106b">&#9670;&nbsp;</a></span>oneDautomateRButton</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QRadioButton* AutoCell::oneDautomateRButton</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adedd96441ddec678f442b65556f3b3ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adedd96441ddec678f442b65556f3b3ca">&#9670;&nbsp;</a></span>randomButton</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QPushButton* AutoCell::randomButton</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a57499d664c336ae4adaf74c4b1d044b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57499d664c336ae4adaf74c4b1d044b3">&#9670;&nbsp;</a></span>resetButton</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QPushButton* AutoCell::resetButton</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab486b9b4e3f44bfb5877e645df65aea5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab486b9b4e3f44bfb5877e645df65aea5">&#9670;&nbsp;</a></span>runLayouts</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QHBoxLayout* AutoCell::runLayouts[2]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a71cf9b64a1fe6ccb6e3bc6322c0ea683"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71cf9b64a1fe6ccb6e3bc6322c0ea683">&#9670;&nbsp;</a></span>saveConfigButton</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QPushButton* AutoCell::saveConfigButton</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a211ce5a06bc9ad78b676eb1af228c7de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a211ce5a06bc9ad78b676eb1af228c7de">&#9670;&nbsp;</a></span>simul</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_simulateur.html">Simulateur</a>* AutoCell::simul</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>le simulation de l'application initialisé à nullptr lors de la construction. </p>
+
+</div>
+</div>
+<a id="a550abcdc305cc523a418d36a2c056af8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a550abcdc305cc523a418d36a2c056af8">&#9670;&nbsp;</a></span>size</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int AutoCell::size</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8b9bdb4b51283c1e34796dd3e4f2530e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b9bdb4b51283c1e34796dd3e4f2530e">&#9670;&nbsp;</a></span>stateLayout</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QVBoxLayout* AutoCell::stateLayout</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3266b5a94681a3648a77cea021c9fab2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3266b5a94681a3648a77cea021c9fab2">&#9670;&nbsp;</a></span>stateTable</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QTableWidget* AutoCell::stateTable</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad5c93f1c78affb640a63eac87b2b5272"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad5c93f1c78affb640a63eac87b2b5272">&#9670;&nbsp;</a></span>stateWindow</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QWidget* AutoCell::stateWindow</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ade03f964bc89cca95df819380691bd15"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade03f964bc89cca95df819380691bd15">&#9670;&nbsp;</a></span>titleLabel</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QLabel* AutoCell::titleLabel</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7932c1cc6136f8a7afa8f6e8810daab1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7932c1cc6136f8a7afa8f6e8810daab1">&#9670;&nbsp;</a></span>topFiller</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QWidget* AutoCell::topFiller</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a44d059e3279018c8e3fe858e2291447a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44d059e3279018c8e3fe858e2291447a">&#9670;&nbsp;</a></span>twoDautomateRButton</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QRadioButton* AutoCell::twoDautomateRButton</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab6ca94c6b8b6bddcb04fef1f82ac541e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6ca94c6b8b6bddcb04fef1f82ac541e">&#9670;&nbsp;</a></span>type</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString AutoCell::type</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a56d0886fc2be3af04cb9844d026d2277"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56d0886fc2be3af04cb9844d026d2277">&#9670;&nbsp;</a></span>unDLabel</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QLabel* AutoCell::unDLabel</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1529ae5a1890fb0fd363288395830076"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1529ae5a1890fb0fd363288395830076">&#9670;&nbsp;</a></span>unDTable</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QTableWidget* AutoCell::unDTable</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8e449c86b2eb93c195a86bb284e050c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e449c86b2eb93c195a86bb284e050c4">&#9670;&nbsp;</a></span>widthLab</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QLabel* AutoCell::widthLab</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3cd3b3878b3f75b83b8cafecee445252"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3cd3b3878b3f75b83b8cafecee445252">&#9670;&nbsp;</a></span>widthNbCells</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int AutoCell::widthNbCells =10</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0ec2a8e1579c6eafc9fee2da9c87dccc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ec2a8e1579c6eafc9fee2da9c87dccc">&#9670;&nbsp;</a></span>widthSpin</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QSpinBox* AutoCell::widthSpin</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aca2c926fc727b2bc2af0b5a5c644052c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca2c926fc727b2bc2af0b5a5c644052c">&#9670;&nbsp;</a></span>zeroNineNineValidator</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QIntValidator* AutoCell::zeroNineNineValidator</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>permet de vérifier que les cellules des automates plusieurs états soient bien entre 0 et 99 </p>
+
+</div>
+</div>
+<a id="a5c7509aba28b5a7136e586e236bb0d36"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c7509aba28b5a7136e586e236bb0d36">&#9670;&nbsp;</a></span>zeroOneValidator</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QIntValidator* AutoCell::zeroOneValidator</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>La documentation de cette classe a été générée à partir des fichiers suivants :<ul>
+<li>C:/Users/hjs/Desktop/LO21_AutoCellProjet-20180616T155646Z-001/LO21_AutoCellProjet/<a class="el" href="autocell_8h_source.html">autocell.h</a></li>
+<li>C:/Users/hjs/Desktop/LO21_AutoCellProjet-20180616T155646Z-001/LO21_AutoCellProjet/<a class="el" href="autocell_8cpp.html">autocell.cpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Généré par &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
+</body>
+</html>

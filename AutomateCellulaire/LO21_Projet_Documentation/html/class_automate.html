@@ -1,0 +1,146 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>LO21_Projet: Référence de la classe Automate</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">LO21_Projet
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Fonctions membres publiques</a> &#124;
+<a href="class_automate-members.html">Liste de tous les membres</a>  </div>
+  <div class="headertitle">
+<div class="title">Référence de la classe Automate<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>classe abstraite des automates  
+ <a href="class_automate.html#details">Plus de détails...</a></p>
+
+<p><code>#include &lt;<a class="el" href="_automate_8hpp_source.html">Automate.hpp</a>&gt;</code></p>
+<div class="dynheader">
+Graphe d'héritage de Automate:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_automate.png" usemap="#Automate_map" alt=""/>
+  <map id="Automate_map" name="Automate_map">
+<area href="class_automate_deux_dimension.html" title="Une classe des automates 2 dimensions comportant 2 règles: une règle pour les cellules vivantes à l&#39;e..." alt="AutomateDeuxDimension" shape="rect" coords="0,56,151,80"/>
+<area href="class_automate_plusieurs_etats.html" title="Une classe des automates une dimension mais à plusieurs états, notre propre automate. Il comporte une règle et comporte 99 états possible (de 0 à 98) " alt="AutomatePlusieursEtats" shape="rect" coords="161,56,312,80"/>
+<area href="class_automate_un_dimension.html" title="Une classe des automates 1 dimension. Comporte une règle et ses accesseurs. " alt="AutomateUnDimension" shape="rect" coords="322,56,473,80"/>
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Fonctions membres publiques</h2></td></tr>
+<tr class="memitem:aa0fcaaf6dfa4716ddaf0bfb2fc7a5aa2"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_automate.html#aa0fcaaf6dfa4716ddaf0bfb2fc7a5aa2">appliquerTransition</a> (const <a class="el" href="class_etat.html">Etat</a> &amp;dep, <a class="el" href="class_etat.html">Etat</a> &amp;dest) const =0</td></tr>
+<tr class="separator:aa0fcaaf6dfa4716ddaf0bfb2fc7a5aa2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Description détaillée</h2>
+<div class="textblock"><p>classe abstraite des automates </p>
+<p>comporte la fonction commune appliquerTransition afin de respecter principe de substitution, le destructeur est virtuel on enlève le possibilité de construire un automate par l'utilisateur directement, par duplication ou par affectation. Et on laisse la classe <a class="el" href="class_automate_manager.html" title="Une classe qui contrôle la fabrication et suppression des automates avec le design parttern Singleton...">AutomateManager</a> contrôler la fabrication et la suppression en utilisant le design parttern Singleton </p>
+</div><h2 class="groupheader">Documentation des fonctions membres</h2>
+<a id="aa0fcaaf6dfa4716ddaf0bfb2fc7a5aa2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0fcaaf6dfa4716ddaf0bfb2fc7a5aa2">&#9670;&nbsp;</a></span>appliquerTransition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Automate::appliquerTransition </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_etat.html">Etat</a> &amp;&#160;</td>
+          <td class="paramname"><em>dep</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_etat.html">Etat</a> &amp;&#160;</td>
+          <td class="paramname"><em>dest</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implémenté dans <a class="el" href="class_automate_plusieurs_etats.html#a7a05ec65c93d3227d309d778a537cbba">AutomatePlusieursEtats</a>, <a class="el" href="class_automate_deux_dimension.html#a17c3a18474c1f64bcdaeb7e62a4ff814">AutomateDeuxDimension</a>, et <a class="el" href="class_automate_un_dimension.html#aafca85f9aeb1d2f32153eeaa3d07d4c2">AutomateUnDimension</a>.</p>
+
+</div>
+</div>
+<hr/>La documentation de cette classe a été générée à partir du fichier suivant :<ul>
+<li>C:/Users/hjs/Desktop/LO21_AutoCellProjet-20180616T155646Z-001/LO21_AutoCellProjet/<a class="el" href="_automate_8hpp_source.html">Automate.hpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Généré par &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
+</body>
+</html>
